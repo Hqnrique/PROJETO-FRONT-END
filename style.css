@@ -1,0 +1,206 @@
+/*ESTILO GERAL*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppis", sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom right, #00bfae, #4e504e);
+  color: #fff;
+  padding: 20px;
+}
+
+.interface {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+h2.titulo {
+  color: #fff;
+  font-size: 38px;
+  text-align: center;
+}
+
+h2.titulo span {
+  color: #00ff08;
+}
+
+/*ESTILO DO CABEÇALHO*/
+header {
+  padding: 40px 4%;
+}
+
+header .logo img {
+  width: 200px;
+  height: 100px;
+}
+
+main .img-topo-site img {
+  width: 400px;
+  height: auto;
+}
+
+section .interface img {
+  width: 200px;
+  height: 200px;
+}
+
+header > .interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a {
+  color: #7a7a7a;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+header a:hover {
+  color: #fff;
+  transform: scale(1.05);
+}
+
+header a header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0 40px;
+}
+/*BOTÃO DO CABEÇALHO*/
+.btn-contato button {
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #00ff08;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  box-shadow: 0px 0px 8px #00ff08;
+  transform: scale(1.05);
+} /*FIM DO BOTÃO DO CABEÇALHO*/
+
+/*ESTILO DO TOPO DO SITE*/
+section .topo-do-site {
+  padding: 40px 4%;
+}
+
+section.topo-do-site .flex {
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.topo-do-site h1 {
+  color: #fff;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.topo-do-site .txt-topo-do-site p {
+  color: #fff;
+  margin: 40px 0;
+}
+
+.img-do-site .img-topo-site img {
+  position: relative;
+  animation: flutuar 0.2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 30px;
+  }
+}
+
+/* ESTILO DA RECICLAGEM*/
+section.reciclagem {
+  padding: 40px 4%;
+}
+
+section.reciclagem .flex {
+  gap: 60px;
+}
+
+.reciclagem .reciclagem-box {
+  color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  margin-top: 45px;
+  transition: 0.2s;
+}
+
+.reciclagem .reciclagem-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ffffff1c;
+}
+
+.reciclagem .reciclagem-box i {
+  font-size: 70px;
+  color: #4caf50;
+}
+
+.reciclagem .reciclagem-box h3 {
+  font-size: 60px;
+  margin: 40px 0;
+}
+
+/*ESTILO DO SOBRE*/
+section.sobre {
+  padding: 80px 4%;
+}
+
+section.sobre .flex {
+  align-items: center;
+  gap: 60px;
+}
+
+.sobre .txt-sobre {
+  color: #fff;
+}
+
+.sobre .txt-sobre h2 {
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span {
+  color: #00ff08;
+}
+
+.sobre .txt-sobre p {
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  border: none;
+  background-color: #00ff08;
+  font-size: 22px;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: 0.2s;
+}
